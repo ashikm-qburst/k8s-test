@@ -9,11 +9,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: vote
+      app: db
   template:
     metadata:
       labels:
-        app: vote
+        app: db
     spec:
       containers:
       - image: kodekloud/examplevotingapp_worker

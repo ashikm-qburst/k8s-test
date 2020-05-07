@@ -5,6 +5,11 @@ metadata:
     app: vote
   name: worker
   namespace: vote
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vote
   template:
     metadata:
       labels:

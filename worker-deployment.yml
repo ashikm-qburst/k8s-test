@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-        app: db
+        app: worker
     spec:
       containers:
       - image: kodekloud/examplevotingapp_worker
